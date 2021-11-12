@@ -1,0 +1,38 @@
+*{
+    font-family: 'Tourney', cursive;
+    font-family: 'Zen Kurenaido', sans-serif
+}
+.titulo{
+    font-family: 'Tourney', cursive;
+    
+}
+.main-header{
+    background-color: aqua;
+    display: flex;
+    
+    
+}
+
+.nav-barr {
+
+    text-align: center;
+    display: flex;
+    position: relative;
+    bottom: -35px;
+    right: 300px;
+    font-size: 15px;
+    align-items:flex-end;
+}
+.nav-barr li{
+    display: inline;
+    padding: 10px;
+   
+}
+
+.main-footer{
+    display: flex;
+    background-color: lawngreen;
+}
+.main-main{
+    background-color:red;
+}
