@@ -1,38 +1,195 @@
-*{
-    font-family: 'Tourney', cursive;
-    font-family: 'Zen Kurenaido', sans-serif
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
 }
+
+header{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+header .primero{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(220, 220, 220);
+    justify-content: space-between;
+
+}
+
+header div .titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 39px;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
 .titulo{
     font-family: 'Tourney', cursive;
-    
 }
-.main-header{
-    background-color: aqua;
+
+header .logo{
     display: flex;
-    
-    
+    justify-content: space-around;
 }
 
-.nav-barr {
+.icono{
+    font-size: 35px;
+    margin: 20px;
+    align-self:auto;
+}
 
+header .segundo{
+    display: flex;
+    background-color: rgb(3,22,83);
+    justify-content: center;
+}
+
+header .form{
+    display: flex;
+    padding: 5px;
+}
+
+header .form .input{
+    background-color: white;
+    border: 1px solid #666;
+    color:#666;
+    padding: 3px;
+    width: 600px;
+    border-radius: 3px;
+}
+
+header .form .submit{
+    background-color: #ebebeb;
+    border: 1px solid #666;
+    color:#000;
+    padding: 3px;
+    width: 28px;
+    margin-left: 8px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.tercero{
+    display: flex;
+    background-color: rgb(43, 43, 204);
+
+
+}
+
+.tercero .nav-barr{
     text-align: center;
+    margin: auto;
+}
+
+header ul{
     display: flex;
-    position: relative;
-    bottom: -35px;
-    right: 300px;
-    font-size: 15px;
-    align-items:flex-end;
+    margin: 10px;
+    text-align: center;
 }
-.nav-barr li{
-    display: inline;
-    padding: 10px;
-   
+
+header ul li{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0px, 20px;
 }
+
+header ul li a{
+    text-decoration:none;
+    color:#000;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+header ul li a:hover{
+    background: rgb(10, 194, 25);
+    border-radius: 3px;
+}
+
+main{
+    background: red;
+}
+
+.slider{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0%;
+    width: 400%;
+    animation: cambio 15s infinite;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 30%;
+    justify-content: center;
+}
+
+.slider2{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider2 ul{
+    display: flex;
+    padding: 0%;
+    width: 400%;
+    animation: cambio 15s infinite;
+}
+.slider2 li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider2 img{
+    width: 5%;
+    justify-content: center;
+   position: relative;
+   left: 50%;
+}
+
+
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% { margin-left: -300%;}
+
+}
+
 
 .main-footer{
     display: flex;
-    background-color: lawngreen;
+    background-color: rgb(220, 220, 220);
+    justify-content: space-between;
+    text-align: justify;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-decoration: none;
+    
 }
-.main-main{
-    background-color:red;
+
+.main-footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+.fomulario{
+    padding: 0px 50px;
 }
