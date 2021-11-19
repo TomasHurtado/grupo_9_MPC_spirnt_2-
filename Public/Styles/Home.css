@@ -1,4 +1,5 @@
-*{box-sizing: border-box;
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     
@@ -8,14 +9,16 @@ header{
     display: flex;
     flex-direction: column;
     font-family: 'Zen Kurenaido', sans-serif;
+    
 }
 
 header .primero{
     display: flex;
     flex-wrap: wrap;
-    background-color:rgb(220, 220, 220);
+    background: #C5CAE9;
     justify-content: space-between;
-
+    border: solid 1px;
+    border-color: #BDBDBD;
 }
 
 header div .titulo{
@@ -28,23 +31,27 @@ header div .titulo{
 
 .titulo{
     font-family: 'Tourney', cursive;
+    color:#212121;
 }
 
-header .logo{
+header .Logo{
     display: flex;
     justify-content: space-around;
+   
 }
 
 .icono{
     font-size: 35px;
     margin: 20px;
     align-self:auto;
+   
 }
 
 header .segundo{
     display: flex;
-    background-color: rgb(3,22,83);
-    justify-content: center;
+    background-color: #3F51B5;
+    justify-content: center; 
+    background: #3F51B5;
 }
 
 header .form{
@@ -75,13 +82,16 @@ header .form .submit{
 .tercero{
     display: flex;
     background-color: rgb(43, 43, 204);
-
-
+    background: #3F51B5;  
+    
+    
+   
 }
 
 .tercero .nav-barr{
     text-align: center;
     margin: auto;
+   
 }
 
 header ul{
@@ -95,21 +105,24 @@ header ul li{
     list-style-type: none;
     justify-content: space-between;
     padding: 0px, 20px;
+    
 }
 
 header ul li a{
+    font-size: 25px;
     text-decoration:none;
-    color:#000;
+    font-weight: bold;
     padding-right: 12px;
     padding-left: 12px;
+    color: #FFFFFF; 
 }
 header ul li a:hover{
-    background: rgb(10, 194, 25);
+    background: #757575;
     border-radius: 3px;
 }
 
 main{
-    background: red;
+    background: #C5CAE9;
 }
 
 .slider{
@@ -178,18 +191,40 @@ main{
 
 .main-footer{
     display: flex;
-    background-color: rgb(220, 220, 220);
+    
     justify-content: space-between;
     text-align: justify;
     font-family: 'Zen Kurenaido', sans-serif;
     text-decoration: none;
+    padding: 20px;
+    background: #3F51B5
     
 }
 
 .main-footer ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .fomulario{
     padding: 0px 50px;
+    color: white;
+}
+h5{
+    color: white;
+}
+.main-footer ul li {
+    text-decoration: none;
+    color: white;
+    list-style-type:none
+}
+.main-footer ul i{
+    text-decoration: none;
+    color: white;
+}
+
+.logobot
+{
+    background-color: #C5CAE9;
+    padding: 10px;
+    border-radius: 5px;
 }
