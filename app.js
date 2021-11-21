@@ -10,3 +10,17 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + "/views/home.html")
 })
 
+app.get('/carrito.html', (req, res) => {
+  res.sendFile(__dirname + "/views/carrito.html")
+})
+app.get('/entrega.html', (req, res) => {
+  res.sendFile(__dirname + "/views/entrega.html")
+})
+app.get('/pago.html', (req, res) => {
+  res.sendFile(__dirname + "/views/pago.html")
+})
+
+app.get('/resumen.html', (req, res) => {
+  res.sendFile(__dirname + "/views/resumen.html")
+})
+

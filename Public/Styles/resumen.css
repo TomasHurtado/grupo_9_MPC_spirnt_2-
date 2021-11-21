@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 
 header{
@@ -122,76 +122,65 @@ header ul li a:hover{
 }
 
 main{
-    background: #C5CAE9;
-}
-
-.slider{
-    background-color: white;
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-}
-.slider ul{
     display: flex;
-    padding: 0%;
-    width: 400%;
-    animation: cambio 15s infinite;
+    padding: 50px;
 }
-.slider li{
-    width: 100%;
-    list-style: none;
-}
-
-.slider img{
-    width: 30%;
-    justify-content: center;
-}
-
-.slider2{
-    background-color: white;
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-}
-.slider2 ul{
+.titulo-compra{
     display: flex;
-    padding: 0%;
-    width: 400%;
-    animation: cambio 15s infinite;
-}
-.slider2 li{
-    width: 100%;
-    list-style: none;
+    justify-content: space-between;
+    
 }
 
-.slider2 img{
-    width: 5%;
-    justify-content: center;
-   position: relative;
-   left: 50%;
+.tabla{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.tabla a{
+    text-decoration: none;
+}
+.tabla-productos ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-around;
+    
+}
+.tabla-productos ul li{
+    list-style-type: none;
+    padding: 15px;
+    
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.productos div{
+    
+    padding: 5px;
+}
+.productos img{
+    height: 100px;
+    
 }
 
-
-
-@keyframes cambio {
-    0% {margin-left: 0;}
-    20% { margin-left: 0;}
-
-    25% {margin-left: -100%;}
-    45% { margin-left: -100%;}
-
-    50% {margin-left: -200%;}
-    70% { margin-left: -200%;}
-
-    75% {margin-left: -300%;}
-    100% { margin-left: -300%;}
-
+.productos i {
+    width: 100px;
+    height: 100px;
 }
-
-
+.cant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .main-footer{
     display: flex;
-    
+    margin-top: 150px;
     justify-content: space-between;
     text-align: justify;
     font-family: 'Zen Kurenaido', sans-serif;
