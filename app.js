@@ -24,3 +24,10 @@ app.get('/resumen.html', (req, res) => {
   res.sendFile(__dirname + "/views/resumen.html")
 })
 
+app.get('/login.html', (req, res) => {
+  res.sendFile(__dirname + "/views/login.html")
+})
+
+app.get('/recuperar.html', (req, res) => {
+  res.sendFile(__dirname + "/views/recuperar.html")
+})

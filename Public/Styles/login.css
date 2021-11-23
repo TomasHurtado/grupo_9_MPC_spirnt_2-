@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/*header {
+    display: flex;
+    background-color: rgba(160, 160, 160, 0.932);
+    
+    justify-content: center;
+    align-items: center;
+}*/
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    
+}
+
+.b-de-vuelta, .b-verte{
+    font-size: 30px;
+}
+
+.b-verte{
+    font-size: 15px;
+}
+
+.b-de-vuelta, .b-verte{
+    text-align: center;
+    color: white;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+label{
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+input{
+    background-color: rgb(128, 128, 128);
+    /*opacity: 0.5;*/
+    color: white;
+}
+
+.login button{
+    margin-top: 20px;
+}
+
+input, button{
+    max-width: 100%;
+    padding: 9px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/*boton enviar*/
+.login button  a{
+    color:white;
+    text-decoration: none;
+}
+
+.login button {
+    max-width: 100%;
+    background-color: #1259c3;
+    border: solid 1px #666;
+}
+
+.login button[type='submit']:hover{
+    background-color: #0022AA;
+}
+/*boton enviar*/
+
+
+/*avisos  de abajo*/
+.cuenta-regist{
+    display: flex;
+    justify-content: space-between;
+}
+
+.olvidar{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.avisos a{
+    text-decoration: none;
+    color: white;
+}
+
+/*avisos  de abajo*/
+
+
+
+
+@media(min-width: 361px){
+    .login{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+}
