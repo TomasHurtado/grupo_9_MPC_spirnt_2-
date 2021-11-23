@@ -31,3 +31,7 @@ app.get('/login.html', (req, res) => {
 app.get('/recuperar.html', (req, res) => {
   res.sendFile(__dirname + "/views/recuperar.html")
 })
+
+app.get('/register.html', (req, res) => {
+  res.sendFile(__dirname + "/views/register.html")
+})

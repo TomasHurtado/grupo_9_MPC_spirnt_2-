@@ -56,35 +56,39 @@
 
 
     <main>
-        <div class="formulario">
+        <div class="formulario-registro-zoe">
 
-            <h1 class="b-de-vuelta">Bienvenido de vuelta</h1>
-            <p class="b-verte">Que bueno verte otra vez :)</p>
-
-
+            <h1 class="registrate">Registrate</h1>
+            
             <form action="/" method="POST">
 
-                <div class="login">
+                <div class="register">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre usuario" required>
+
                         <label for="e-mail">Correo</label>
                         <input type="email" name="email" id="e-mail" placeholder="Ej: ejemplo@gmail.com" required>
 
+                        
+                            <input type="number" name="datos" id="datos" placeholder="Código de área" required>
+                            
+                            <input type="number" name="datos" id="datos" placeholder="teléfono" required>
+                        
+
+                        <label for="datos">DNI/ CUIT</label>
+                        <input type="text" name="datos" id="datos" placeholder="DNI/ CUIT" required>
 
                         <label for="contraeña">Contraseña</label>
                         <input type="password" name="password" id="contraeña" placeholder="Tu contraseña" required>
 
 
-                        <button class="inicio" type="submit"><a href="/">Iniciar Sesión</a> </button>
+                        <button class="regist" type="submit"><a href="/">Registrate</a> </button>
                     
                 
                     <div class="avisos">
-                        <div class="cuenta-regist">
-                        <p class="b-verte">¿Aún no tienes una cuenta?</p> 
-                        <a href="/register.html">Regístrate</a>
-                        </div>
 
                         <div class="olvidar">
                         <a href="/recuperar.html">Olvidé mi contraseña</a>
-                        
                         </div>
                         
                     </div>
@@ -95,6 +99,7 @@
         </div>
 
     </main>
+
 
 
     <footer class="main-footer">
