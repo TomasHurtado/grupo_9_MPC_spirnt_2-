@@ -35,6 +35,11 @@ app.get('/recuperar.html', (req, res) => {
 app.get('/register.html', (req, res) => {
   res.sendFile(__dirname + "/views/register.html")
 })
+
 app.get('/perfil.html', (req, res) => {
   res.sendFile(__dirname + "/views/perfil.html")
+})
+
+app.get('/productDetail.html', (req, res) => {
+  res.sendFile(__dirname + "/views/productDetail.html")
 })

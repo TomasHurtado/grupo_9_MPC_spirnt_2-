@@ -40,43 +40,44 @@
     </div>
 
 
-        <!--<nav class="tercero">
+       <nav class="tercero">
             <div class="nav-barr">
             <ul>
                 <li><a href="#">Productos </a></li>
                 <li><a href="#">Encontra tu equipo</a></li>
                 <li><a href="#">Arma tu pc</a></li>
-                <li><a href="#">Mi cuenta</a></li>
+                <li><a href="/perfil.html">Mi cuenta</a></li>
                 <li><a href="#">Ayuda</a></li>
             </ul>
             </div>
-        </nav>-->
+        </nav>
 
     </header>
 
 
     <main>
-        <div class="formulario-registro-zoe">
+        <h1 class="registrate">Registrate</h1><br>
+        <div class="formulario">
 
-            <h1 class="registrate">Registrate</h1>
+            
             
             <form action="/" method="POST">
 
                 <div class="register">
                         <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Nombre usuario" required>
+                        <input type="text" name="nombre" id="nombre" placeholder="nombre" required>
+
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+
+                        <label for="Nombre de usuario">Nombre de usuario</label>
+                        <input type="text" name="Nombre de usuario" id="Nombre de usuario" placeholder="Nombre de usuario" required>
 
                         <label for="e-mail">Correo</label>
                         <input type="email" name="email" id="e-mail" placeholder="Ej: ejemplo@gmail.com" required>
-
                         
-                            <input type="number" name="datos" id="datos" placeholder="Código de área" required>
-                            
-                            <input type="number" name="datos" id="datos" placeholder="teléfono" required>
-                        
-
-                        <label for="datos">DNI/ CUIT</label>
-                        <input type="text" name="datos" id="datos" placeholder="DNI/ CUIT" required>
+                        <label for="tel">Telefono</label>
+                        <input type="number" name="tel" id="tel" placeholder="Teléfono" required>
 
                         <label for="contraeña">Contraseña</label>
                         <input type="password" name="password" id="contraeña" placeholder="Tu contraseña" required>

@@ -20,10 +20,16 @@ main{
     display: flex;
     justify-content: center;
     padding: 40px;
-    
+    flex-direction:column;
+    text-align: center;
 }
 
 
+.register{
+    display: flex;
+    flex-direction:column;
+    
+}
 .b-de-vuelta, .b-verte{
     font-size: 30px;
 }
