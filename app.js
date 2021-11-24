@@ -7,11 +7,11 @@ app.listen(3000,()=>{
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + "/views/home.html")
+  res.sendFile(__dirname + "/views/index.html")
 })
 
-app.get('/carrito.html', (req, res) => {
-  res.sendFile(__dirname + "/views/carrito.html")
+app.get('/productCart.html', (req, res) => {
+  res.sendFile(__dirname + "/views/productCart.html")
 })
 app.get('/entrega.html', (req, res) => {
   res.sendFile(__dirname + "/views/entrega.html")
