@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Zen Kurenaido', sans-serif;
 }
 
 header{
@@ -143,7 +142,9 @@ header ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
+
 
 .card{
     display: flex;
@@ -259,6 +260,7 @@ header ul li a:hover{
     right: 50px;
     font-size: 20px;
     border:none;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 
 .botone:hover{
@@ -337,6 +339,7 @@ header ul li a:hover{
     position: relative;
     padding: 5px;
     justify-content: space-evenly;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 h2{
     margin-right:50% ;
